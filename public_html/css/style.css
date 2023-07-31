@@ -1,0 +1,193 @@
+/* PAGE BASICS */
+html {
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+body {
+    background-color: floralwhite;
+    margin: 0;
+}
+
+footer {
+    background-color: #00a69c;
+    color: floralwhite;
+    height: 60px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* TEXT SETTINGS */
+h1.titles {
+    color: #00a69c;
+}
+
+h2.subtitles, h4.subtitles {
+    color: #00a69c;
+}
+
+p.description{
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+p.sectiontitles {
+    font-weight: bold;
+}
+
+p.fields, span.fields {
+    font-weight: bold;
+    color: #00a69c;
+}
+
+a {
+    color: #00a69c;
+}
+
+.container {
+    margin-top: 20px;
+    min-height: 90vh;
+}
+
+.row {
+    margin: 20px 0 20px 0;
+}
+
+/* BUTTON */
+button {
+    width: 150px;
+    height: 40px;
+    background-color: #00a69c;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #999999;
+    color: white;
+}
+
+/* NAVIGATION */
+nav {
+    width: 100%;
+    background-color: #00a69c;
+    overflow: auto;
+    padding: 10px 0 0 0;
+}
+
+nav a {
+    float: right;
+    padding: 5px 20px 5px 20px;
+    color: floralwhite;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+    transition: ease-in-out 0.3s;
+}
+
+nav a:hover {
+    background-color: #d0d2d3;
+    color: #00a69c;
+}
+
+nav .active {
+    text-decoration: underline;
+    text-decoration-color: #d0d2d3;
+}
+
+nav .logo {
+    float:left;
+    padding-left: 20px;
+}
+
+nav .logo a:hover {
+    background-color: #00a69c;
+    transform: scale(1.01);
+}
+
+/* HOME PAGE */
+.home-page-reviews p {
+    margin: 0;
+}
+
+.home-page-reviews h3 {
+    color: black;
+    font-weight: bold;
+}
+
+/* EMPLOYER LOGOS */
+.employer_logo {
+    max-width: 300px;
+    transition: ease-in-out 0.2s;
+}
+
+.employer_logo:hover {
+    transform: scale(1.02);
+}
+
+/* SEARCH BAR */
+#search-bar {
+    width: 500px;
+    border-radius: 5px;
+    border-color: #00a69c;
+}
+
+.search {
+    margin: 30px;
+    text-align: center;
+}
+
+.search a {
+    background-color: #00a69c;
+    color: floralwhite;
+    display: inline-block;
+    width: 500px;
+}
+
+#suggestions {
+    display: inline-table;
+    max-height: 200px;
+    max-width: 300px;
+    padding: 5px;
+}
+
+/* PAGINATION */
+.pagination-nav {
+    background-color: white;
+}
+
+.pagination-nav a {
+    width: 80px;
+    height: 40px;
+    background-color: #00a69c;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#revPageCount {
+    margin-top: 22px;
+}
+
+/* RATING STARS */
+.small-stars {
+    color: #00a69c;
+}
+
+.stars {
+    color: #00a69c;
+    font-size: 30px;
+}
+
+.big-stars {
+    color: #00a69c;
+    font-size: 45px;
+}
+
+.slider-horizontal {
+    width: 1000px;
+}
+
+/* CHART */
+#empChart {
+    margin-top: -100px;
+}
